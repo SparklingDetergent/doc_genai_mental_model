@@ -17,15 +17,15 @@ graph TD
     G --> H[📚 学習ロードマップ]
     H --> I[🔗 関連リソース]
     
-    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-はじめに"
-    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-メンタルモデルとは"
-    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-3つのコア要素"
-    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-構築方法"
-    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-可視化技術"
-    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-抽出テクニック"
-    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-実践ツール"
-    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-学習ロードマップ"
-    click I "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-関連リソース"
+    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#はじめに"
+    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#メンタルモデルとは"
+    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#3つのコア要素"
+    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#構築方法"
+    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#可視化技術"
+    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#抽出テクニック"
+    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#実践ツール"
+    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#学習ロードマップ"
+    click I "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#関連リソース"
 ```
 
 ## はじめに
@@ -52,9 +52,9 @@ flowchart LR
 - **意思決定の質**: より良い判断のための思考フレームワーク
 - **コミュニケーション**: 他者との共通理解の構築
 
-🧠 メンタルモデルとは？
+## メンタルモデルとは？
 
-#定義：頭の中の「作業仮説」
+### 定義：頭の中の「作業仮説」
 メンタルモデルとは、私たちが世界をどのように理解し、解釈するかの**内的表現**です。
 
 **日常例で理解しよう：**
@@ -66,7 +66,7 @@ flowchart LR
 | 💼 ビジネス | 「顧客は価値を重視する」「競合は価格で勝負してくる」 |
 | 📱 技術 | 「このボタンを押すとメニューが出る」「ファイルはフォルダに整理される」 |
 
-#メンタルモデルの特徴
+### メンタルモデルの特徴
 
 ```mermaid
 mindmap
@@ -89,7 +89,7 @@ mindmap
       実用的抽象化
 ```
 
-🔍 3つのコア要素
+## 3つのコア要素
 
 メンタルモデルの研究と活用には、3つの核となる要素があります：
 
@@ -114,16 +114,16 @@ graph TB
     style C fill:#e8f5e8
 ```
 
-#なぜこの3つが重要なのか？
+### なぜこの3つが重要なのか？
 
 **料理に例えると：**
 - **構築** = レシピを開発する（試行錯誤して美味しい作り方を見つける）
 - **可視化** = レシピを文字や図で表現する（他の人に伝えられる形にする）
 - **抽出** = 他の人のレシピを学ぶ（新しい技術や味を獲得する）
 
-🏗️ 構築方法
+## 構築方法
 
-#フェーズ1：観察と体験
+### フェーズ1：観察と体験
 
 ```mermaid
 flowchart TD
@@ -162,7 +162,7 @@ flowchart TD
    - 新しい情報で既存のモデルを修正
    - より正確で実用的なモデルに進化させる
 
-#フェーズ2：構造化と体系化
+### フェーズ2：構造化と体系化
 
 ```mermaid
 graph LR
