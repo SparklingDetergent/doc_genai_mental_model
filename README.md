@@ -1,9 +1,9 @@
 # メンタルモデル 完全理解ガイド 🧠
 
-## 🌟 一言要約
+## 一言要約
 **「頭の中の地図を見える化して、思考の仕組みを理解し、より良い判断ができるようになる技術」**
 
-## 📖 目次
+## 目次
 ```mermaid
 graph TD
     A[🚀 はじめに] --> B[🧠 メンタルモデルとは？]
@@ -17,18 +17,18 @@ graph TD
     G --> H[📚 学習ロードマップ]
     H --> I[🔗 関連リソース]
     
-    click A "#-はじめに"
-    click B "#🧠-メンタルモデルとは"
-    click C "#🔍-3つのコア要素"
-    click D "#🏗️-構築方法"
-    click E "#👁️-可視化技術"
-    click F "#⚡-抽出テクニック"
-    click G "#🛠️-実践ツール"
-    click H "#📚-学習ロードマップ"
-    click I "#🔗-関連リソース"
+    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-はじめに"
+    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-メンタルモデルとは"
+    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-3つのコア要素"
+    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-構築方法"
+    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-可視化技術"
+    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-抽出テクニック"
+    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-実践ツール"
+    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-学習ロードマップ"
+    click I "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#-関連リソース"
 ```
 
-## 🚀 はじめに
+## はじめに
 
 想像してください。あなたが新しい街に引っ越したとき、最初は迷子になってしまいます。でも時間が経つにつれて、頭の中に「この角を曲がれば駅」「あの建物の向こうにコンビニ」という**心の地図**ができあがります。
 
@@ -52,9 +52,9 @@ flowchart LR
 - **意思決定の質**: より良い判断のための思考フレームワーク
 - **コミュニケーション**: 他者との共通理解の構築
 
-## 🧠 メンタルモデルとは？
+🧠 メンタルモデルとは？
 
-### 定義：頭の中の「作業仮説」
+#定義：頭の中の「作業仮説」
 メンタルモデルとは、私たちが世界をどのように理解し、解釈するかの**内的表現**です。
 
 **日常例で理解しよう：**
@@ -66,7 +66,7 @@ flowchart LR
 | 💼 ビジネス | 「顧客は価値を重視する」「競合は価格で勝負してくる」 |
 | 📱 技術 | 「このボタンを押すとメニューが出る」「ファイルはフォルダに整理される」 |
 
-### メンタルモデルの特徴
+#メンタルモデルの特徴
 
 ```mermaid
 mindmap
@@ -89,7 +89,7 @@ mindmap
       実用的抽象化
 ```
 
-## 🔍 3つのコア要素
+🔍 3つのコア要素
 
 メンタルモデルの研究と活用には、3つの核となる要素があります：
 
@@ -114,16 +114,16 @@ graph TB
     style C fill:#e8f5e8
 ```
 
-### なぜこの3つが重要なのか？
+#なぜこの3つが重要なのか？
 
 **料理に例えると：**
 - **構築** = レシピを開発する（試行錯誤して美味しい作り方を見つける）
 - **可視化** = レシピを文字や図で表現する（他の人に伝えられる形にする）
 - **抽出** = 他の人のレシピを学ぶ（新しい技術や味を獲得する）
 
-## 🏗️ 構築方法
+🏗️ 構築方法
 
-### フェーズ1：観察と体験
+#フェーズ1：観察と体験
 
 ```mermaid
 flowchart TD
@@ -162,7 +162,7 @@ flowchart TD
    - 新しい情報で既存のモデルを修正
    - より正確で実用的なモデルに進化させる
 
-### フェーズ2：構造化と体系化
+#フェーズ2：構造化と体系化
 
 ```mermaid
 graph LR
@@ -183,7 +183,7 @@ graph LR
 | **階層図** | 上下関係や包含関係を表現 | 組織構造、分類体系の理解 |
 | **フローチャート** | 手順やプロセスの流れを表現 | 作業手順、判断プロセスの理解 |
 
-## 👁️ 可視化技術
+## 可視化技術
 
 ### なぜ可視化が必要なのか？
 
@@ -298,7 +298,7 @@ flowchart LR
 | **データ分析** | グラフ・チャート | 定量的関係、トレンド |
 | **ストーリー** | ジャーニーマップ | 時系列、体験の流れ |
 
-## ⚡ 抽出テクニック
+## 抽出テクニック
 
 ### 他者のメンタルモデルを理解する技術
 
@@ -385,7 +385,7 @@ sequenceDiagram
    - 場面に応じて最適なモデルを選択
    - 複数の視点からの問題解決
 
-## 🛠️ 実践ツール
+## 実践ツール
 
 ### デジタルツール
 
@@ -418,7 +418,7 @@ flowchart TD
     D -->|非同期| H[共有ツール<br/>Notion, Obsidian]
 ```
 
-## 📚 学習ロードマップ
+## 学習ロードマップ
 
 ### 🌱 初級レベル（0-3ヶ月）
 **目標：メンタルモデルの基本概念を理解し、簡単な可視化ができる**
@@ -476,7 +476,7 @@ gantt
 - チェンジマネジメントへの応用
 - 研究・開発への活用
 
-## 🔗 関連リソース
+## 関連リソース
 
 
 ### 🛠️ 実践プロジェクト
@@ -500,7 +500,7 @@ gantt
 
 ---
 
-## 🎯 次のステップ
+## 次のステップ
 
 このガイドを読み終えたあなたは、メンタルモデルの全体像を理解できました。さあ、実際に始めてみましょう！
 
