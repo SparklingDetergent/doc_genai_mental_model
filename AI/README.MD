@@ -16,14 +16,14 @@ graph TD
     F --> H[🎯 実践への第一歩]
     G --> H
     
-    click A "#🚀-はじめに---aiって結局何なの"
-    click B "#🏗️-aiの基本構造---料理に例えると"
-    click C "#🤖-aiの種類と特徴---aiファミリーを知ろう"
-    click D "#🛠️-主要技術---aiの魔法の正体"
-    click E "#🌍-実世界での応用---もうaiなしでは生きられない"
-    click F "#📚-学習ロードマップ---0から専門家になる道筋"
-    click G "#🔮-2025年のトレンド---今起きている革命"
-    click H "#🎯-実践への第一歩---今日からできること"
+    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-はじめに---aiって結局何なの"
+    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#️-aiの基本構造---料理に例えると"
+    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-aiの種類と特徴---aiファミリーを知ろう"
+    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#️-主要技術---aiの魔法の正体"
+    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-実世界での応用---もうaiなしでは生きられない"
+    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-学習ロードマップ---0から専門家になる道筋"
+    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-2025年のトレンド---今起きている革命"
+    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-実践への第一歩---今日からできること"
     
     style A fill:#ff9999
     style B fill:#99ccff
@@ -277,10 +277,6 @@ graph TD
     D --> H[🔧 実践プロジェクト<br/>• Python機械学習<br/>• データ分析<br/>• 簡単なAIアプリ作成]
     
     E --> I[🏆 高度なスキル<br/>• ディープラーニング<br/>• 研究論文読解<br/>• AIモデル開発]
-    
-    click G "#📚-おすすめ学習リソース"
-    click H "#🛠️-実践プロジェクト例"
-    click I "#🎓-上級者向けリソース"
     
     style A fill:#ffcccc
     style C fill:#ccffcc
