@@ -340,9 +340,7 @@ graph TD
 ### ⚡ 最新トレンド分析
 
 ```mermaid
-radar
-    title 2025年AI技術トレンド
-    
+pie title 2025年AI技術トレンド
     "推論AI" : 90
     "生成AI" : 95
     "エッジAI" : 75
