@@ -17,15 +17,15 @@ graph TD
     G --> H[📚 学習ロードマップ]
     H --> I[🔗 関連リソース]
     
-    click A "#🚀-はじめに"
-    click B "#🧠-メンタルモデルとは"
-    click C "#🔍-3つのコア要素"
-    click D "#🏗️-構築方法"
-    click E "#👁️-可視化技術"
-    click F "#⚡-抽出テクニック"
-    click G "#🛠️-実践ツール"
-    click H "#📚-学習ロードマップ"
-    click I "#🔗-関連リソース"
+    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-はじめに"
+    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-メンタルモデルとは"
+    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-3つのコア要素"
+    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-構築方法"
+    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-可視化技術"
+    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-抽出テクニック"
+    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-実践ツール"
+    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-学習ロードマップ"
+    click I "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-関連リソース"
 ```
 
 ## 🚀 はじめに
