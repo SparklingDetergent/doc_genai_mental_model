@@ -16,14 +16,14 @@ graph TD
     F --> H[🎯 実践への第一歩]
     G --> H
     
-    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-はじめに---aiって結局何なの"
-    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#️-aiの基本構造---料理に例えると"
-    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-aiの種類と特徴---aiファミリーを知ろう"
-    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#️-主要技術---aiの魔法の正体"
-    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-実世界での応用---もうaiなしでは生きられない"
-    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-学習ロードマップ---0から専門家になる道筋"
-    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-2025年のトレンド---今起きている革命"
-    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-実践への第一歩---今日からできること"
+    click A "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-はじめに---aiって結局何なの"
+    click B "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#️-aiの基本構造---料理に例えると"
+    click C "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-aiの種類と特徴---aiファミリーを知ろう"
+    click D "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#️-主要技術---aiの魔法の正体"
+    click E "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-実世界での応用---もうaiなしでは生きられない"
+    click F "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-学習ロードマップ---0から専門家になる道筋"
+    click G "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-2025年のトレンド---今起きている革命"
+    click H "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-実践への第一歩---今日からできること"
     
     style A fill:#ff9999
     style B fill:#99ccff
@@ -486,48 +486,49 @@ AI学習は筋トレと同じ。毎日少しずつでも継続することで、
 
 *最終更新: 2025年8月31日*
 
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…ion_visualization_and_extraction/blob/main/AI/README.MD#人工知能-完全理解ガイド-2025-",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-一言要約",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-目次",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…tion_visualization_and_extraction/blob/main/AI/README.MD#-はじめに---aiって結局何なの",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#日常例えで理解する-ai",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-なぜ今aiが熱いのか",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…on_visualization_and_extraction/blob/main/AI/README.MD#️-aiの基本構造---料理に例えると",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-aiの4つの基本要素",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…isualization_and_extraction/blob/main/AI/README.MD#-aiの種類と特徴---aiファミリーを知ろう",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-ai技術の比較表",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…tion_visualization_and_extraction/blob/main/AI/README.MD#️-主要技術---aiの魔法の正体",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-機械学習の3つのスタイル",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…n_visualization_and_extraction/blob/main/AI/README.MD#-ディープラーニング---aiの最強技術",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…ualization_and_extraction/blob/main/AI/README.MD#-実世界での応用---もうaiなしでは生きられない",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-日常生活でのai活用",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-産業別ai革命",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…isualization_and_extraction/blob/main/AI/README.MD#-学習ロードマップ---0から専門家になる道筋",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-学習レベル別ガイド",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-レベル別詳細学習プラン",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-初心者レベル1-3ヶ月",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-実践レベル3-6ヶ月",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#️-中級レベル6-12ヶ月",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-上級レベル1-2年",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-専門家レベル3年以上",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…visualization_and_extraction/blob/main/AI/README.MD#-2025年のトレンド---今起きている革命",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-最新トレンド分析",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-5大革命的トレンド",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-注目すべき統計データ",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…n_visualization_and_extraction/blob/main/AI/README.MD#-実践への第一歩---今日からできること",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…tion_visualization_and_extraction/blob/main/AI/README.MD#-今すぐ始められる7つのアクション",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…sualization_and_extraction/blob/main/AI/README.MD#-実践チャレンジ---30日間aiマスタープラン",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#第1週-ai体験ウィーク-",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…ction_visualization_and_extraction/blob/main/AI/README.MD#第2週-aiツール探検ウィーク-",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#第3週-ai学習ウィーク-",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#第4週-ai創造ウィーク-",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-おすすめリソース集",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-無料学習プラットフォーム",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-専門コース",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-最新情報源",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-コミュニティと交流",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…ion_visualization_and_extraction/blob/main/AI/README.MD#-まとめ---ai時代を生き抜く知恵",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-覚えておきたい3つの真実",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_cons…visualization_and_extraction/blob/main/AI/README.MD#-あなたの-ai-ジャーニーは今日から始まる",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/AI/README.MD#-次のアクション"
+
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#人工知能-完全理解ガイド-2025-",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-一言要約",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-目次",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-はじめに---aiって結局何なの",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#日常例えで理解する-ai",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-なぜ今aiが熱いのか",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#️-aiの基本構造---料理に例えると",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-aiの4つの基本要素",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-aiの種類と特徴---aiファミリーを知ろう",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-ai技術の比較表",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#️-主要技術---aiの魔法の正体",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-機械学習の3つのスタイル",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-ディープラーニング---aiの最強技術",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-実世界での応用---もうaiなしでは生きられない",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-日常生活でのai活用",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-産業別ai革命",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-学習ロードマップ---0から専門家になる道筋",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-学習レベル別ガイド",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-レベル別詳細学習プラン",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-初心者レベル1-3ヶ月",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-実践レベル3-6ヶ月",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#️-中級レベル6-12ヶ月",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-上級レベル1-2年",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-専門家レベル3年以上",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-2025年のトレンド---今起きている革命",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-最新トレンド分析",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-5大革命的トレンド",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-注目すべき統計データ",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-実践への第一歩---今日からできること",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-今すぐ始められる7つのアクション",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-実践チャレンジ---30日間aiマスタープラン",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#第1週-ai体験ウィーク-",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#第2週-aiツール探検ウィーク-",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#第3週-ai学習ウィーク-",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#第4週-ai創造ウィーク-",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-おすすめリソース集",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-無料学習プラットフォーム",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-専門コース",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-最新情報源",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-コミュニティと交流",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-まとめ---ai時代を生き抜く知恵",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-覚えておきたい3つの真実",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-あなたの-ai-ジャーニーは今日から始まる",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/AI/README.MD#-次のアクション"
 
