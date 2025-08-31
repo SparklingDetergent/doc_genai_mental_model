@@ -112,6 +112,10 @@ graph TB
     style A fill:#e1f5fe
     style B fill:#f3e5f5
     style C fill:#e8f5e8
+
+    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#構築方法"
+    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#可視化技術"
+    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/#抽出テクニック"
 ```
 
 ### なぜこの3つが重要なのか？
