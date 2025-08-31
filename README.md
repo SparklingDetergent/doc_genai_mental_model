@@ -17,7 +17,7 @@ graph TD
     G --> H[📚 学習ロードマップ]
     H --> I[🔗 関連リソース]
     
-    click A "#🚀-はじめに"
+    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-はじめに"
     click B "#🧠-メンタルモデルとは"
     click C "#🔍-3つのコア要素"
     click D "#🏗️-構築方法"
