@@ -389,3 +389,156 @@ timeline
 
 ---
 
+Warning: Don’t paste code into the DevTools Console that you don’t understand or haven’t reviewed yourself. This could allow attackers to steal your identity or take control of your computer. Please type ‘allow pasting’ below and hit Enter to allow pasting.
+allow pasting
+// GitHubの新しい目次パネルからリンクを取得
+console.log('=== GitHub Markdown 目次リンク取得 ===');
+
+// 新しいGitHubのUI構造に基づくセレクタ
+const outlineLinks = Array.from(document.querySelectorAll('nav.TableOfContentsPanel-module__NavList--LnyCZ a'))
+  .filter(link => link.getAttribute('href') && link.getAttribute('href').startsWith('#'))
+  .map(link => {
+    const href = link.getAttribute('href');
+    const text = link.querySelector('.prc-ActionList-ItemLabel-TmBhn')?.textContent.trim() || 
+                 link.textContent.trim();
+    
+    return {
+      text: text,
+      hash: href,
+      fullUrl: window.location.origin + window.location.pathname + href
+    };
+  });
+
+console.log(`✅ ${outlineLinks.length}個の目次リンクを取得しました`);
+
+if (outlineLinks.length > 0) {
+  // テーブル形式で表示
+  console.table(outlineLinks);
+  
+  // URL一覧を表示
+  const urls = outlineLinks.map(item => item.fullUrl);
+  console.log('\n=== URL一覧 ===');
+  urls.forEach((url, index) => {
+    console.log(`${index + 1}. ${url}`);
+  });
+  
+  // クリップボードにコピー
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(urls.join('\n'))
+      .then(() => console.log('\n✅ URLがクリップボードにコピーされました'))
+      .catch(err => console.log('❌ クリップボードへのコピーに失敗:', err));
+  }
+  
+  // 配列として出力（コピペしやすい形式）
+  console.log('\n=== JavaScript配列形式 ===');
+  console.log(JSON.stringify(urls, null, 2));
+  
+} else {
+  console.log('❌ 目次リンクが見つかりませんでした');
+  
+  // デバッグ用：利用可能な要素を確認
+  console.log('\n=== デバッグ情報 ===');
+  const navElement = document.querySelector('nav.TableOfContentsPanel-module__NavList--LnyCZ');
+  if (navElement) {
+    console.log('✅ nav要素は見つかりました');
+    const allLinks = navElement.querySelectorAll('a');
+    console.log(`nav内のaタグ数: ${allLinks.length}`);
+  } else {
+    console.log('❌ nav要素が見つかりません');
+  }
+}
+
+
+VM401:2 === GitHub Markdown 目次リンク取得 ===
+VM401:19 ✅ 0個の目次リンクを取得しました
+VM401:44 ❌ 目次リンクが見つかりませんでした
+VM401:47 
+=== デバッグ情報 ===
+VM401:54 ❌ nav要素が見つかりません
+undefined
+// GitHubの新しい目次パネルからリンクを取得
+console.log('=== GitHub Markdown 目次リンク取得 ===');
+
+// 新しいGitHubのUI構造に基づくセレクタ
+const outlineLinks = Array.from(document.querySelectorAll('nav.TableOfContentsPanel-module__NavList--LnyCZ a'))
+  .filter(link => link.getAttribute('href') && link.getAttribute('href').startsWith('#'))
+  .map(link => {
+    const href = link.getAttribute('href');
+    const text = link.querySelector('.prc-ActionList-ItemLabel-TmBhn')?.textContent.trim() || 
+                 link.textContent.trim();
+    
+    return {
+      text: text,
+      hash: href,
+      fullUrl: window.location.origin + window.location.pathname + href
+    };
+  });
+
+console.log(`✅ ${outlineLinks.length}個の目次リンクを取得しました`);
+
+if (outlineLinks.length > 0) {
+  // テーブル形式で表示
+  console.table(outlineLinks);
+  
+  // URL一覧を表示
+  const urls = outlineLinks.map(item => item.fullUrl);
+  console.log('\n=== URL一覧 ===');
+  urls.forEach((url, index) => {
+    console.log(`${index + 1}. ${url}`);
+  });
+  
+  // クリップボードにコピー
+  if (navigator.clipboard) {
+    navigator.clipboard.writeText(urls.join('\n'))
+      .then(() => console.log('\n✅ URLがクリップボードにコピーされました'))
+      .catch(err => console.log('❌ クリップボードへのコピーに失敗:', err));
+  }
+  
+  // 配列として出力（コピペしやすい形式）
+  console.log('\n=== JavaScript配列形式 ===');
+  console.log(JSON.stringify(urls, null, 2));
+  
+} else {
+  console.log('❌ 目次リンクが見つかりませんでした');
+  
+  // デバッグ用：利用可能な要素を確認
+  console.log('\n=== デバッグ情報 ===');
+  const navElement = document.querySelector('nav.TableOfContentsPanel-module__NavList--LnyCZ');
+  if (navElement) {
+    console.log('✅ nav要素は見つかりました');
+    const allLinks = navElement.querySelectorAll('a');
+    console.log(`nav内のaタグ数: ${allLinks.length}`);
+  } else {
+    console.log('❌ nav要素が見つかりません');
+  }
+}
+
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#人間のメンタルモデルと生成ai-完全理解ガイド",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-一言要約",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-目次",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-はじめに",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-メンタルモデル基礎理解",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#基本概念心の中の設計図",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#認知メカニズム脳はどう理解するか",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#形成プロセス経験が作る思考の地図",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-生成aiとの関係性",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#相互作用パターン人とaiの対話の舞台",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#心理的影響aiが変える心の風景",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#適応メカニズム共に成長する関係性",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-重要性の深層分析",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#認知科学的意義思考の革命",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#社会的インパクト社会を変える力",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#倫理的考察責任ある発展のために",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-発展性と未来展望",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#技術発展動向次世代への架け橋",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#人機協調の未来共に創る明日",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#応用可能性無限の可能性",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-学習ロードマップ",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#初学者向けパス基礎から応用へ",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#専門家向けパス研究と実践の統合",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#実践応用パス社会変革への貢献",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-関連リソース",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-必読文献",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-オンラインリソース",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-実践コミュニティ",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/mental_model/genai.md#-まとめ共に歩む未来への第一歩"
