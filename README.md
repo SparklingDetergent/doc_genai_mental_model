@@ -17,15 +17,15 @@ graph TD
     G --> H[📚 学習ロードマップ]
     H --> I[🔗 関連リソース]
     
-    click A "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-はじめに"
-    click B "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-メンタルモデルとは"
-    click C "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-3つのコア要素"
-    click D "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-構築方法"
-    click E "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-可視化技術"
-    click F "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-抽出テクニック"
-    click G "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-実践ツール"
-    click H "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-学習ロードマップ"
-    click I "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-関連リソース"
+    click A "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-はじめに"
+    click B "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-メンタルモデルとは"
+    click C "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-3つのコア要素"
+    click D "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-構築方法"
+    click E "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-可視化技術"
+    click F "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-抽出テクニック"
+    click G "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-実践ツール"
+    click H "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-学習ロードマップ"
+    click I "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-関連リソース"
 ```
 
 ## 🚀 はじめに
@@ -525,42 +525,42 @@ gantt
 **頭の中の地図を、一緒に描いていきましょう！** 🗺️✨
 
 
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#メンタルモデル-完全理解ガイド-",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-一言要約",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-目次",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-はじめに",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#なぜメンタルモデルが重要なのか",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-メンタルモデルとは",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#定義頭の中の作業仮説",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#メンタルモデルの特徴",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-3つのコア要素",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#なぜこの3つが重要なのか",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-構築方法",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#フェーズ1観察と体験",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#フェーズ2構造化と体系化",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-可視化技術",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#なぜ可視化が必要なのか",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#可視化の5つのレベル",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#レベル1概念アイデアの可視化",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#レベル2構造関係性の可視化",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#レベル3プロセス流れの可視化",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#可視化ツールの選択指針",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-抽出テクニック",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#他者のメンタルモデルを理解する技術",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#抽出の3つの手法",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#1-観察による抽出",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#2-質問による抽出",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#3-共同作業による抽出",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#抽出したモデルの活用法",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-実践ツール",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#デジタルツール",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#アナログツール",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#実践的な使い分け",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-学習ロードマップ",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-初級レベル0-3ヶ月",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-中級レベル3-9ヶ月",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-上級レベル9ヶ月以上",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-関連リソース",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#️-実践プロジェクト",
-  "https://github.com/SparklingDetergent/doc_genai_Exploring_mental_model_construction_visualization_and_extraction/blob/main/README.md#-次のステップ"
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#メンタルモデル-完全理解ガイド-",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-一言要約",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-目次",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-はじめに",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#なぜメンタルモデルが重要なのか",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-メンタルモデルとは",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#定義頭の中の作業仮説",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#メンタルモデルの特徴",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-3つのコア要素",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#なぜこの3つが重要なのか",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-構築方法",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#フェーズ1観察と体験",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#フェーズ2構造化と体系化",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-可視化技術",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#なぜ可視化が必要なのか",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#可視化の5つのレベル",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#レベル1概念アイデアの可視化",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#レベル2構造関係性の可視化",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#レベル3プロセス流れの可視化",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#可視化ツールの選択指針",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-抽出テクニック",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#他者のメンタルモデルを理解する技術",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#抽出の3つの手法",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#1-観察による抽出",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#2-質問による抽出",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#3-共同作業による抽出",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#抽出したモデルの活用法",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-実践ツール",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#デジタルツール",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#アナログツール",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#実践的な使い分け",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-学習ロードマップ",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-初級レベル0-3ヶ月",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-中級レベル3-9ヶ月",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-上級レベル9ヶ月以上",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-関連リソース",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#️-実践プロジェクト",
+  "https://github.com/SparklingDetergent/doc_genai_mental_model/blob/main/README.md#-次のステップ"
 
