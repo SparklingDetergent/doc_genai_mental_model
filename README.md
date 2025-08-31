@@ -1,0 +1,2 @@
+# doc_genai_Exploring_mental_model_construction_visualization_and_extraction
+メンタルモデルの構築と可視化と抽出の探求
