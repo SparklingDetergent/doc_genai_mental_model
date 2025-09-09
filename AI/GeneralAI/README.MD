@@ -301,25 +301,32 @@ graph TD
 - 人間の主導権を維持した発展
 
 ```mermaid
-gitgraph
-    commit id: "現在の特化型AI"
-    branch 楽観シナリオ
-    checkout 楽観シナリオ
-    commit id: "2030年: 準汎用AI"
-    commit id: "2040年: 強いAI実現"
-    commit id: "2050年: AI-人間共生社会"
+graph TD
+    A[現在の特化型AI<br/>2024年] --> B{AI発展の分岐点}
     
-    checkout main
-    branch 現実的シナリオ
-    commit id: "2035年: 段階的導入"
-    commit id: "2050年: 強いAI実現"
-    commit id: "2070年: 社会適応完了"
+    B --> C[楽観シナリオ]
+    B --> D[現実的シナリオ]  
+    B --> E[慎重シナリオ]
     
-    checkout main
-    branch 慎重シナリオ
-    commit id: "2040年: 限定的活用"
-    commit id: "不明: 段階的発展"
-    commit id: "不明: 慎重な統合"
+    C --> C1[2030年: 準汎用AI]
+    C1 --> C2[2040年: 強いAI実現]
+    C2 --> C3[2050年: AI-人間共生社会]
+    
+    D --> D1[2035年: 段階的導入]
+    D1 --> D2[2050年: 強いAI実現]
+    D2 --> D3[2070年: 社会適応完了]
+    
+    E --> E1[2040年: 限定的活用]
+    E1 --> E2[2060年: 段階的発展]
+    E2 --> E3[2080年: 慎重な統合]
+    
+    classDef optimistic fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef realistic fill:#f3e5f5,stroke:#4a148c,stroke-width:2px
+    classDef conservative fill:#fff3e0,stroke:#e65100,stroke-width:2px
+    
+    class C,C1,C2,C3 optimistic
+    class D,D1,D2,D3 realistic
+    class E,E1,E2,E3 conservative
 ```
 
 ---
