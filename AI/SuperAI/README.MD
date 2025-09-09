@@ -203,24 +203,21 @@ AIの進化を「生物の進化」のように段階別に理解しましょう
 
 ```mermaid
 graph TD
-    A[弱いAI<br/>Narrow AI] --> B[強いAI<br/>AGI]
-    B --> C[超知能AI<br/>ASI]
+    A[弱いAI - Narrow AI] --> B[強いAI - AGI]
+    B --> C[超知能AI - ASI]
     
-    A1[特定タスク専門] --> A2[例：画像認識<br/>音声認識<br/>推薦システム]
-    B1[人間レベル汎用知能] --> B2[例：あらゆる認知タスク<br/>を人間レベルで実行]
-    C1[人間超越汎用知能] --> C2[例：全分野で人間を<br/>圧倒的に上回る]
+    A --> A1[特定タスク専門]
+    A1 --> A2[画像認識・音声認識・推薦システム]
     
-    A --> A1 --> A2
-    B --> B1 --> B2  
-    C --> C1 --> C2
+    B --> B1[人間レベル汎用知能]  
+    B1 --> B2[あらゆる認知タスクを人間レベルで実行]
+    
+    C --> C1[人間超越汎用知能]
+    C1 --> C2[全分野で人間を圧倒的に上回る]
     
     style A fill:#4caf50
-    style B fill:#ff9800
+    style B fill:#ff9800  
     style C fill:#f44336,color:#fff
-    
-    click A "/docs/narrow-ai.md" "弱いAIの詳細"
-    click B "/docs/agi.md" "汎用AIの詳細" 
-    click C "/docs/super-ai.md" "超知能AIの詳細"
 ```
 
 ### 各段階の特徴比較
