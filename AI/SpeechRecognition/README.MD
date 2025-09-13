@@ -282,51 +282,46 @@ flowchart LR
 
 
 ```mermaid
-graph TB
-    subgraph applications["音声認識応用分野"]
-        subgraph personal["個人用途"]
-            direction LR
-            home["スマートホーム制御"]
-            assistant["音声アシスタント"]
-            gaming["音声ゲーミング"]
-        end
-        
-        subgraph business["ビジネス用途"] 
-            direction LR
-            transcription["自動文字起こし"]
-            callcenter["音声応答システム"]
-            medical["医療記録システム"]
-        end
-        
-        subgraph specialized["専門応用"]
-            direction LR
-            automotive["車載システム"]
-            media["メディア処理"]
-            translation["多言語翻訳"]
-        end
-    end
-    
-    subgraph outcomes["実現される価値"]
-        efficiency["日常効率化"]
-        automation["業務自動化"] 
-        enhancement["専門性向上"]
-    end
-    
-    %% 論理的グルーピング
-    personal -.-> efficiency
-    business -.-> automation
-    specialized -.-> enhancement
-    
-    %% スタイル定義
-    classDef personalStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
-    classDef businessStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
-    classDef specializedStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
-    classDef outcomeStyle fill:#fff3e0,stroke:#f57c00,stroke-width:3px
-    
-    class personal,home,assistant,gaming personalStyle
-    class business,transcription,callcenter,medical businessStyle
-    class specialized,automotive,media,translation specializedStyle
-    class efficiency,automation,enhancement outcomeStyle
+mindmap
+  root((音声認識応用))
+    個人領域
+      スマートホーム
+        照明制御
+        温度調整
+        音楽操作
+      音声アシスタント
+        情報検索
+        スケジュール管理
+        メッセージ送信
+      エンターテイメント
+        ゲーム操作
+        音声コマンド
+    ビジネス領域  
+      文書作成
+        議事録生成
+        レポート作成
+        メール下書き
+      顧客対応
+        コールセンター
+        FAQ応答
+        予約システム
+      専門業務
+        医療記録
+        法務記録
+        技術文書
+    専門応用
+      モビリティ
+        車載ナビ
+        ハンズフリー通話
+        音楽選択
+      メディア制作
+        字幕生成
+        音声編集
+        配信支援
+      国際化
+        リアルタイム翻訳
+        多言語対応
+        文化的適応
 ```
 
 
