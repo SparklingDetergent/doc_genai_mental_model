@@ -280,38 +280,55 @@ flowchart LR
 
 ### 🏠 身近な実用例
 
+
 ```mermaid
 graph TB
-    subgraph 家庭・個人用途
-        A1[🏠 スマートホーム<br/>電気・エアコン操作]
-        A2[📱 音声アシスタント<br/>Siri、Alexa、Google]
-        A3[🎮 ゲーム<br/>音声コマンド操作]
+    subgraph applications["音声認識応用分野"]
+        subgraph personal["個人用途"]
+            direction LR
+            home["スマートホーム制御"]
+            assistant["音声アシスタント"]
+            gaming["音声ゲーミング"]
+        end
+        
+        subgraph business["ビジネス用途"] 
+            direction LR
+            transcription["自動文字起こし"]
+            callcenter["音声応答システム"]
+            medical["医療記録システム"]
+        end
+        
+        subgraph specialized["専門応用"]
+            direction LR
+            automotive["車載システム"]
+            media["メディア処理"]
+            translation["多言語翻訳"]
+        end
     end
     
-    subgraph ビジネス用途
-        B1[📝 議事録作成<br/>会議の自動文字起こし]
-        B2[📞 コールセンター<br/>音声応答システム]
-        B3[🏥 医療記録<br/>診察内容の記録]
+    subgraph outcomes["実現される価値"]
+        efficiency["日常効率化"]
+        automation["業務自動化"] 
+        enhancement["専門性向上"]
     end
     
-    subgraph 専門分野
-        C1[🚗 自動車<br/>ナビ・電話操作]
-        C2[📺 メディア<br/>字幕生成]
-        C3[🌍 翻訳<br/>多言語リアルタイム変換]
-    end
+    %% 論理的グルーピング
+    personal -.-> efficiency
+    business -.-> automation
+    specialized -.-> enhancement
     
-    A1 --> D[日常生活の<br/>効率化]
-    A2 --> D
-    A3 --> D
+    %% スタイル定義
+    classDef personalStyle fill:#e3f2fd,stroke:#1976d2,stroke-width:2px
+    classDef businessStyle fill:#f3e5f5,stroke:#7b1fa2,stroke-width:2px
+    classDef specializedStyle fill:#e8f5e8,stroke:#388e3c,stroke-width:2px
+    classDef outcomeStyle fill:#fff3e0,stroke:#f57c00,stroke-width:3px
     
-    B1 --> E[業務の<br/>自動化]
-    B2 --> E
-    B3 --> E
-    
-    C1 --> F[専門性の<br/>向上]
-    C2 --> F
-    C3 --> F
+    class personal,home,assistant,gaming personalStyle
+    class business,transcription,callcenter,medical businessStyle
+    class specialized,automotive,media,translation specializedStyle
+    class efficiency,automation,enhancement outcomeStyle
 ```
+
 
 ### 🎯 応用技術フロー
 
