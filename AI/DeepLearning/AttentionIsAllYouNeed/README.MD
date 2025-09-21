@@ -74,15 +74,13 @@ Attention搭載AI：「重要な情報に重点を置いて処理」
 
 ```mermaid
 sequenceDiagram
-    participant 入力文 as "私は猫が好きです"
+    participant Input as "入力文: 私は猫が好きです"
     participant Attention as "Attention機構"
-    participant 出力 as "翻訳結果"
+    participant Output as "翻訳結果"
     
-    入力文->>Attention: "私" "は" "猫" "が" "好き" "です"
-    Note over Attention: 重要度を計算<br/>私:20% は:5% 猫:40% が:10% 好き:30% です:5%
-    Attention->>出力: "I love cats"
-    
-    click Attention "/docs/attention-mechanism.md" "Attention機構の詳細"
+    Input->>Attention: トークン分割処理
+    Note over Attention: 重要度計算<br/>私:20%, は:5%, 猫:40%<br/>が:10%, 好き:30%, です:5%
+    Attention->>Output: "I love cats"
 ```
 
 ---
