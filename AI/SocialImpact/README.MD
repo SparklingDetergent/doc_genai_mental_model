@@ -174,20 +174,23 @@ timeline
 
 ```mermaid
 quadrantChart
-    title AI社会的影響の分類
-    x-axis 影響の範囲 --> 広範囲
-    y-axis 影響の深度 --> 深刻
+    title AI Impact Analysis Matrix
+    x-axis Limited --> Widespread
+    y-axis Shallow --> Deep
     
-    quadrant-1 構造的変化
-    quadrant-2 システム改善
-    quadrant-3 個人的便益
-    quadrant-4 社会的課題
+    quadrant-1 Structural Change
+    quadrant-2 System Enhancement
+    quadrant-3 Personal Benefits  
+    quadrant-4 Social Challenges
     
-    プライバシー問題: [0.3, 0.7]
-    雇用変化: [0.8, 0.8]
-    効率化: [0.2, 0.3]
-    新産業創出: [0.9, 0.6]
-    格差拡大: [0.7, 0.9]
+    Privacy Issues: [0.3, 0.7]
+    Employment Shift: [0.8, 0.8]
+    Efficiency Gains: [0.2, 0.3]
+    Industry Innovation: [0.9, 0.6]
+    Digital Divide: [0.7, 0.9]
+    Healthcare AI: [0.6, 0.4]
+    Automation Impact: [0.8, 0.7]
+    Data Security: [0.4, 0.8]
 ```
 
 ## 📗 関連する用語
