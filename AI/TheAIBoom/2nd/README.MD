@@ -88,9 +88,22 @@ flowchart LR
 
 ```mermaid
 graph TD
-    A[人間の知識<br/>鳥は飛ぶ] --> B[ルール形式<br/>IF 鳥 THEN 飛ぶ]
-    A --> C[フレーム形式<br/>鳥{翼:あり,飛行:可能}]
-    A --> D[セマンティックネット<br/>鳥→飛行→可能]
+    A[人間の知識] --> B[ルール形式]
+    A --> C[フレーム形式]
+    A --> D[セマンティックネット]
+    
+    %% 詳細情報をサブノードで表現
+    A1["例: 鳥は飛ぶ"] -.-> A
+    B1["IF 鳥 THEN 飛ぶ"] -.-> B
+    C1["鳥{翼:あり,飛行:可能}"] -.-> C
+    D1["鳥→飛行→可能"] -.-> D
+    
+    %% スタイリング
+    classDef mainNode fill:#e1f5fe,stroke:#01579b,stroke-width:2px
+    classDef exampleNode fill:#f3e5f5,stroke:#4a148c,stroke-width:1px
+    
+    class A,B,C,D mainNode
+    class A1,B1,C1,D1 exampleNode
     
     click B "/docs/rule-based.md" "ルールベース推論"
     click C "/docs/frame-systems.md" "フレームシステム"
