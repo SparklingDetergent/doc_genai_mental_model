@@ -233,17 +233,15 @@ graph LR
 
 ```mermaid
 sequenceDiagram
-    participant 医師
-    participant MYCIN
-    participant 知識ベース
+    participant D as 医師(Doctor)
+    participant M as MYCIN
+    participant K as 知識ベース(KB)
     
-    医師->>MYCIN: 患者症状入力
-    MYCIN->>知識ベース: 診断ルール検索
-    知識ベース-->>MYCIN: 該当ルール返却
-    MYCIN->>MYCIN: 推論実行
-    MYCIN-->>医師: 診断結果+治療提案
-    
-    click MYCIN "/docs/mycin-diagnosis.md" "MYCIN診断プロセス"
+    D->>M: 患者症状入力
+    M->>K: 診断ルール検索
+    K-->>M: 該当ルール返却
+    M->>M: 推論実行
+    M-->>D: 診断結果+治療提案
 ```
 
 ### 産業分野での成功
