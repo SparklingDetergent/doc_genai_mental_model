@@ -193,19 +193,24 @@ graph TD
 ### 類義語の比較
 
 ```mermaid
-quadrantChart
-    title 音声・音楽技術の分類
-    x-axis 音楽 --> 音声
-    y-axis 認識 --> 生成
-    quadrant-1 音声合成
-    quadrant-2 音声認識
-    quadrant-3 音楽認識
-    quadrant-4 音楽生成
+graph TD
+    subgraph " "
+        direction LR
+        Q1["<b>第1象限</b><br/>音声合成<br/><br/>Text-to-Speech"]
+        Q2["<b>第2象限</b><br/>音声認識<br/><br/>Speech-to-Text"]
+        Q3["<b>第3象限</b><br/>音楽認識<br/><br/>Shazam"]
+        Q4["<b>第4象限</b><br/>音楽生成<br/><br/>AI作曲"]
+    end
     
-    Shazam: [0.2, 0.2]
-    Speech-to-Text: [0.8, 0.2]
-    Text-to-Speech: [0.8, 0.8]
-    AI作曲: [0.2, 0.8]
+    Q3 -.音楽→音声.-> Q2
+    Q3 -.認識→生成.-> Q4
+    Q4 -.音楽→音声.-> Q1
+    Q2 -.認識→生成.-> Q1
+    
+    style Q1 fill:#e1f5fe
+    style Q2 fill:#f3e5f5
+    style Q3 fill:#fff9c4
+    style Q4 fill:#c8e6c9
 ```
 
 ## 💡 メリットとデメリット
@@ -346,16 +351,6 @@ graph TD
     style E fill:#e1bee7
     style F fill:#b2dfdb
 ```
-
-### 競合サービス比較
-
-| サービス | 強み | 弱み | シェア |
-|---------|------|------|--------|
-| **Shazam** | 認識精度最高 | 鼻歌不可 | 40% |
-| **SoundHound** | 鼻歌対応 | データベース小 | 25% |
-| **Google音声検索** | 統合性高い | 専門性低い | 20% |
-| **Musixmatch** | 歌詞に強い | 音響認識弱い | 10% |
-| **その他** | - | - | 5% |
 
 ### 技術的競合
 
